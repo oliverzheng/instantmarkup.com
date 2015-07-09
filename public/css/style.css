@@ -1054,6 +1054,10 @@
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.7em;
 		}
 
 /* Wrapper */
@@ -1136,7 +1140,7 @@
 
 	#footer {
 		background: #383b43;
-		padding: 6em 0em 4em;
+		padding: 2em 0em;
 	}
 
 		#footer h2, #footer h3, #footer h4 {
@@ -1171,7 +1175,7 @@
 					padding-left: 0;
 				}
 
-			#footer .copyright a {
+			#footer .copyright {
 				color: #858585;
 			}
 
@@ -1217,3 +1221,7 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+.hide {
+  display: none;
+}

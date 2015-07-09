@@ -83,6 +83,10 @@
 				$body.removeClass('is-loading');
 			});
 
+      $('.signup').click(function() {
+        $('#three').removeClass('hide')[0].scrollIntoView();
+      });
+
 	});
 
 })(jQuery);
