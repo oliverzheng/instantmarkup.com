@@ -1,0 +1,6 @@
+{
+  "name": "instantmarkup.com",
+  "scripts": {
+    "test": "echo Testacular testing"
+  }
+}
