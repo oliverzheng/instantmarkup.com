@@ -85,6 +85,11 @@
 
       $('.signup').click(function() {
         $('#three').removeClass('hide')[0].scrollIntoView();
+        analytics.track('Clicked Sign Up');
+      });
+
+      $('#mailinglist').submit(function() {
+        analytics.track('Tried to subscribe to newsletter');
       });
 
 	});
